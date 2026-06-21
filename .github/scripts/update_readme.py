@@ -31,9 +31,7 @@ colors = {
     "Python": "3572a5"
 }
 
-badges = [
-    '  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License: MIT"></a>'
-]
+badges = []
 for lang, bytes_count in langs.items():
     pct = (bytes_count / total) * 100
     color = colors.get(lang, "blue")
@@ -44,6 +42,9 @@ for lang, bytes_count in langs.items():
         badge_url = f"https://img.shields.io/badge/{lang}-{pct:.1f}%25-%23{color}?style=flat-square&logo={logo}&logoColor=black"
     
     badges.append(f'  <img src="{badge_url}" alt="{lang}">')
+
+# Append License at the end
+badges.append('  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License: MIT"></a>')
 
 badges_str = "\n".join(badges)
 
