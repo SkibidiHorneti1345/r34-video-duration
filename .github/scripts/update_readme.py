@@ -31,7 +31,9 @@ colors = {
     "Python": "3572a5"
 }
 
-badges = []
+badges = [
+    '  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License: MIT"></a>'
+]
 for lang, bytes_count in langs.items():
     pct = (bytes_count / total) * 100
     color = colors.get(lang, "blue")
