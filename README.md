@@ -48,3 +48,5 @@ Since this extension is distributed as source code, you can load it directly int
 - `manifest.json`: Defines permissions, content scripts, and page matching criteria.
 - `content.js`: Main logic handler (DOM mutation observation, queue management, URL guessing, metadata resolution, caching, and badge injection).
 - `style.css`: Premium CSS rules for rendering the badges with transitions and orange/red states for debugging.
+
+
