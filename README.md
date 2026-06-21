@@ -49,4 +49,8 @@ Since this extension is distributed as source code, you can load it directly int
 - `content.js`: Main logic handler (DOM mutation observation, queue management, URL guessing, metadata resolution, caching, and badge injection).
 - `style.css`: Premium CSS rules for rendering the badges with transitions and orange/red states for debugging.
 
+---
+
+*Project created with **Gemini Antigravity**, with much love. ❤️*
+
 
