@@ -1,0 +1,31 @@
+/* Ensure the thumbnail container can position the badge absolutely */
+span.thumb {
+  position: relative !important;
+  display: inline-block;
+}
+
+.r34-duration-badge {
+  position: absolute;
+  bottom: 8px; /* Slightly inset from the thumbnail border */
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 6px;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0; /* Hidden initially for fade-in effect */
+  transform: translateY(2px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 10;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(2px); /* Glassmorphism premium touch */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.r34-duration-badge.r34-badge-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
