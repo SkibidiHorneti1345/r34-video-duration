@@ -1,10 +1,11 @@
 # Rule34 Video Duration Badge Extension
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-87.9%25-%23f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/CSS-8.5%25-%23563d7c?style=flat-square&logo=css3&logoColor=white" alt="CSS">
-  <img src="https://img.shields.io/badge/Python-3.6%25-%233572a5?style=flat-square&logo=python&logoColor=white" alt="Python">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License: MIT"></a>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SkibidiHorneti1345&repo=r34-video-duration&layout=compact&theme=transparent&hide_border=true" alt="Top Languages">
 </p>
 
 A premium, lightweight Chrome extension that automatically overlay video durations and animated GIF badges directly onto search result thumbnails on `rule34.xxx`. Heavily inspired by YouTube's clean and modern aesthetic.
