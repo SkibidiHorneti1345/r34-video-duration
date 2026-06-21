@@ -1,5 +1,9 @@
 # Rule34 Video Duration Badge Extension
 
+![JavaScript](https://img.shields.io/badge/JavaScript-87.9%25-%23f1e05a?style=flat-square&logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-8.5%25-%23563d7c?style=flat-square&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.6%25-%233572a5?style=flat-square&logo=python&logoColor=white)
+
 A premium, lightweight Chrome extension that automatically overlay video durations and animated GIF badges directly onto search result thumbnails on `rule34.xxx`. Heavily inspired by YouTube's clean and modern aesthetic.
 
 ---
