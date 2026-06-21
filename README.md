@@ -4,17 +4,17 @@ A premium, lightweight Chrome extension that automatically overlay video duratio
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎥 **YouTube-style Badges**: Smooth, semi-transparent dark badges showing video duration or `GIF` status.
-- ⚡ **Zero-Fetch URL Guessing**: Instantly predicts the direct video media paths directly from thumbnails to avoid loading server pages, ensuring lighting fast loads.
-- 🗃️ **Smart Caching**: Uses `chrome.storage.local` to cache successfully resolved durations, preventing duplicate server queries on pagination or back navigation.
-- 🚦 **Concurrency Queue**: Safely processes loads through a concurrent worker queue (up to 3 parallel requests) to avoid browser stutter or page freezing.
-- 🎨 **Premium Aesthetic**: Subtle animations, glassmorphic hover details, and responsive scaling.
+- **YouTube-style Badges**: Smooth, semi-transparent dark badges showing video duration or `GIF` status.
+- **Zero-Fetch URL Guessing**: Instantly predicts the direct video media paths directly from thumbnails to avoid loading server pages, ensuring lighting fast loads.
+- **Smart Caching**: Uses `chrome.storage.local` to cache successfully resolved durations, preventing duplicate server queries on pagination or back navigation.
+- **Concurrency Queue**: Safely processes loads through a concurrent worker queue (up to 3 parallel requests) to avoid browser stutter or page freezing.
+- **Premium Aesthetic**: Subtle animations, glassmorphic hover details, and responsive scaling.
 
 ---
 
-## 🛠️ Installation (Developer Mode)
+## Installation (Developer Mode)
 
 Since this extension is distributed as source code, you can load it directly into Chrome:
 
@@ -36,7 +36,7 @@ Since this extension is distributed as source code, you can load it directly int
 
 ---
 
-## 📂 File Architecture
+## File Architecture
 
 - `manifest.json`: Defines permissions, content scripts, and page matching criteria.
 - `content.js`: Main logic handler (DOM mutation observation, queue management, URL guessing, metadata resolution, caching, and badge injection).
