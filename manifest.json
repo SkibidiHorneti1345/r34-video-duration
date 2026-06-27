@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Rule34.xxx Video Duration",
-  "version": "1.0",
-  "description": "Smoothly displays video duration on thumbnails for rule34.xxx like YouTube.",
+  "version": "2.0.0",
+  "description": "Displays video durations and GIF badges on rule34.xxx thumbnails.",
   "permissions": [
     "storage"
   ],
@@ -13,7 +13,7 @@
     {
       "matches": ["*://*.rule34.xxx/*", "*://rule34.xxx/*"],
       "css": ["style.css"],
-      "js": ["content.js"],
+      "js": ["src/core.js", "content.js"],
       "run_at": "document_idle"
     }
   ]

@@ -1,4 +1,4 @@
-/* Ensure the thumbnail container can position the badge absolutely */
+.r34vd-thumb-host,
 span.thumb {
   position: relative !important;
   display: inline-block;
@@ -6,7 +6,7 @@ span.thumb {
 
 .r34-duration-badge {
   position: absolute;
-  bottom: 8px; /* Slightly inset from the thumbnail border */
+  bottom: 8px;
   right: 8px;
   background-color: rgba(0, 0, 0, 0.75);
   color: #ffffff;
@@ -16,16 +16,29 @@ span.thumb {
   padding: 3px 6px;
   border-radius: 4px;
   pointer-events: none;
-  opacity: 0; /* Hidden initially for fade-in effect */
+  opacity: 0;
   transform: translateY(2px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
   z-index: 10;
-  letter-spacing: 0.5px;
-  backdrop-filter: blur(2px); /* Glassmorphism premium touch */
+  letter-spacing: 0;
+  line-height: 1.2;
+  backdrop-filter: blur(2px);
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
 .r34-duration-badge.r34-badge-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.r34-duration-badge--success {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.r34-duration-badge--loading {
+  background-color: rgba(226, 135, 67, 0.9);
+}
+
+.r34-duration-badge--error {
+  background-color: rgba(186, 45, 45, 0.9);
 }
