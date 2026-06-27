@@ -13,7 +13,3 @@ Thumbs.db
 
 # Log files
 *.log
-
-# Node dependencies and generated reports
-node_modules/
-coverage/

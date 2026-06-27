@@ -43,14 +43,7 @@ Since this extension is distributed as source code, you can load it directly int
 
 ---
 
-## Development
-
-Run the test suite and syntax checks:
-
-```sh
-npm install
-npm run check
-```
+## Debugging
 
 For live debugging, load the folder as an unpacked Chrome extension and open:
 
@@ -68,7 +61,6 @@ The content script exposes `window.__r34vdDebug` with `getState()`, `scanNow()`,
 - `src/core.js`: Pure helpers for thumbnail detection, media URL extraction, formatting, cache policy, and debug sanitization.
 - `content.js`: Runtime handler for DOM mutation observation, queue management, metadata resolution, caching, and badge injection.
 - `style.css`: Badge positioning and status-state styling.
-- `tests/`: Vitest/jsdom coverage for core parsing and cache behavior.
 
 ---
 
