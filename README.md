@@ -2,8 +2,8 @@
 
 
 <p align="center" class="lang-badges">
-  <img src="https://img.shields.io/badge/JavaScript-90.6%25-%23f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/CSS-9.4%25-%23563d7c?style=flat-square&logo=css&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-95.9%25-%23f1e05a?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/CSS-4.1%25-%23563d7c?style=flat-square&logo=css&logoColor=white" alt="CSS">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License: MIT"></a>
 </p>
 
